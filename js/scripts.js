@@ -1,8 +1,8 @@
 var replacer = function(userSentence, oldWord, newWord) {
-  var sentence = userSentence;
-  var oldWord = oldWord;
-  var newWord = newWord;
+  var sentence = userSentence.toLowerCase();
+  var userOldWord = oldWord.toLowerCase();
+  var userNewWord = newWord;
 
-  var fixedSentence = sentence.replace(oldWord, newWord);
+  var fixedSentence = sentence.replace(userOldWord, newWord);
   return fixedSentence;
 };
