@@ -24,8 +24,8 @@ h1 {
 
 
 p.new-sentence {
-font-size: 22px;
-font-style:italic;
+  font-size: 22px;
+  font-style:italic;
 }
 
 input {
@@ -49,6 +49,7 @@ input#new-word {
 #result {
   display: none;
 }
+
 .new-sentence:first-letter {
   text-transform: capitalize;
 }
