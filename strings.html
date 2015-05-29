@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>String Replacer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>String Replacer</h1>
+
+      <form id="leap-year">
+        <div class="form-group">
+          <label for="sentence">Enter a sentence:</label>
+          <input id="sentence" type="text">
+          <label for="replace">Enter a word to replace:</label>
+          <input id="replace" type="text">
+          <label for="new-word">Enter the new word:</label>
+          <input id="new-word" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>Your new and improved sentence: <span class="new-sentence"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
