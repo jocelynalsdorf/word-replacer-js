@@ -1,3 +1,54 @@
+.container {
+  margin-top: 55px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 350;
+}
+
+.main {
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  font-family: "Impact", sans-serif;
+}
+
+.btn{
+  background-color: purple;
+  color: white;
+  margin-bottom:8px;
+}
+
+
+p.new-sentence {
+font-size: 22px;
+font-style:italic;
+}
+
+input {
+  margin-top:3px;
+  margin-bottom:3px;
+}
+
+input#sentence {
+  width:75%;
+}
+
+input#replace {
+  width:69%;
+}
+
+input#new-word {
+  width:72.55%;
+}
+
+/* styling related to jquery */
 #result {
   display: none;
+}
+.new-sentence:first-letter {
+  text-transform: capitalize;
 }

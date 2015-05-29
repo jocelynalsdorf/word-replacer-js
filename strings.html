@@ -9,23 +9,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>String Replacer</h1>
+      <div class="row">
+        <div class="col-sm-6-offset-3 main">
+          <h1>String Replacer</h1>
 
-      <form id="string-words">
-        <div class="form-group">
-          <label for="sentence">Enter a sentence:</label>
-          <input id="sentence" type="text">
-          <label for="replace">Enter a word to replace:</label>
-          <input id="replace" type="text">
-          <label for="new-word">Enter the new word:</label>
-          <input id="new-word" type="text">
+          <form id="string-words">
+            <div class="form-group">
+              <label for="sentence">Enter a sentence:</label>
+              <input id="sentence" type="text"></br>
+              <label for="replace">Enter a word to replace:</label>
+              <input id="replace" type="text"></br>
+              <label for="new-word">Enter the new word:</label>
+              <input id="new-word" type="text"></br>
+            </div>
+            <button type="submit" class="btn">Find out!</button>
+          </form>
+
+          <div id="result">
+            <p>Your new and improved sentence: <p class="new-sentence"></p></p>
+          </div>
         </div>
-
-        <button type="submit" class="btn">Find out!</button>
-      </form>
-
-      <div id="result">
-        <p>Your new and improved sentence: <span class="new-sentence"></span>.</p>
       </div>
     </div>
   </body>
