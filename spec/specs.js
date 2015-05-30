@@ -11,4 +11,8 @@ describe('replacer', function() {
     expect(replacer("that sentence", "That", "the")).to.equal("the sentence");
   });
 
+  it("replaces the given word regardlessof how many times it occurs in a sentence", function(){
+  	expect(replacer("that that sentence", "that", "the")).to.equal("the the sentence");
+  });
+
 });

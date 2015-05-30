@@ -2,12 +2,15 @@ var replacer = function(userSentence, oldWord, newWord) {
 
   var sentence = userSentence.toLowerCase();
   var userOldWord = oldWord.toLowerCase();
+  var regWord =  new RegExp(userOldWord, "g");
   var userNewWord = newWord;
-  var fixedSentence = sentence.replace(userOldWord, newWord);
+
+  var fixedSentence = sentence.replace(regWord, newWord);
 
   return fixedSentence;
 
 };
+
 
 
 
